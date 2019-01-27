@@ -24,7 +24,6 @@
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Categoria</a></li>
                 <li><a href="">Categoria</a></li>
-                <li><a href="">Categoria</a></li>
             </ul>
         </nav>
         <div id="content">

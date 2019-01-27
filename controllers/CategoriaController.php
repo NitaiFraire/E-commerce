@@ -4,7 +4,7 @@ class CategoriaController{
 
     public function index(){
 
-         echo "Funcionando categoria";
+         require_once 'views/categoria/index.php';
     }
 }
 
