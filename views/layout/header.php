@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="<?=baseUrl?>assets/css/styles.css">
 </head>
 <body>
     <div id="container">
         <header id="header">
             <div id="logo">
-                <img src="assets/img/yokoskull.png">
+                <img src="<?=baseUrl?>assets/img/yokoskull.png">
                 <a href="index.php">
                     Nitai's Store 2600
                 </a>

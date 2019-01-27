@@ -324,3 +324,35 @@ input[type="button"]{
 }
 /* /Footer */
 
+/* Form registro */
+
+
+
+.registro input{
+
+    width: 400px;
+}
+
+.registro input:focus{
+
+    width: 400px;
+}
+
+/* /Form registro */
+
+.alertSucces{
+
+    padding: .7rem;
+    color: black;
+    background-color: #c1f3c1;
+    width: 60px;
+}
+
+.alertError{
+
+    padding: .7rem;
+    color: black;
+    background-color: #fdced4;
+    width: 60px;
+}
+
