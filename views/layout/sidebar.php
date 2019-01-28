@@ -30,7 +30,7 @@
 
                     <ul>
                         <?php if(isset($_SESSION['admin'])):?>
-                            <li><a href="#">Gestionar categorias</a></li>
+                            <li><a href="<?=baseUrl?>Categoria/index">Gestionar categorias</a></li>
                             <li><a href="#">Gestionar producto</a></li>
                             <li><a href="#">Gestionar pedidos</a></li>
                         <?php endif;?>
