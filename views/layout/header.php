@@ -23,7 +23,7 @@
         <nav id="menu">
             <ul>
                 <li><a href="<?=baseUrl?>Usuario/registro">Registrate</a></li>
-                <li><a href="">Inicio</a></li>
+                <li><a href="<?=baseUrl?>">Inicio</a></li>
                 <?php while($cat = $categorias->fetch_object()): ?>
                 <li><a href=""><?= $cat->nombre?></a></li>
                 <?php endwhile;?>
