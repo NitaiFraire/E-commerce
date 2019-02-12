@@ -258,6 +258,17 @@ input[type="button"] {
   margin-bottom: 30px;
 }
 
+.product a:first-of-type{
+
+  color: black;
+  text-decoration: none;
+}
+
+.product a:hover{
+
+  color: teal;
+}
+
 .product h2 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -374,4 +385,48 @@ li a .enlace{
 
   width: 100px;
 
+}
+
+.detailProduct{
+
+  width: 100%;
+
+}
+
+.detailProduct .image{
+
+  display: block;
+  width: 47%;
+  float: left;
+}
+
+.detailProduct img{
+
+  display: block;
+  width: 80%;
+  float: left;
+}
+
+.detailProduct .data{
+
+  float: right;
+  width: 50%;
+}
+
+.detailProduct .button{
+
+  width: 200px;
+  text-align: center;
+}
+
+.detailProduct .description{
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.detailProduct .price{
+
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: darkcyan;
 }
