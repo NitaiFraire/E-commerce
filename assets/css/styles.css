@@ -362,13 +362,19 @@ table {
   text-align: center;
   font-size: 1.4rem;
   width: 50%;
-  border: 1px solid #11608e;
+  border: 1px solid #ccc;
 }
 
+tr{
+
+  border: 1px solid #ccc;
+
+}
+
+
 td {
+  border-top: 1px solid #ccc;
   padding: 2px;
-  border-right: 1px solid #1579b5;
-  border-top: 1px solid #1579b5;
 }
 
 li a .enlace{
@@ -429,4 +435,21 @@ li a .enlace{
   margin-bottom: 20px;
   font-size: 20px;
   color: darkcyan;
+}
+
+.imgCarrito{
+
+  height: 80px;
+  display: block;
+  margin: 10px auto;
+}
+
+.totalCarrito{
+
+  float: right;
+}
+
+#carritoTab{
+
+  width: 100%;
 }

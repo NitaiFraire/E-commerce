@@ -1,5 +1,16 @@
 
             <aside id="lateral">
+
+                <div id="miCarrito" class="block_aside">
+                    <h3>Mi carrito</h3>
+                    <ul>
+                        <?php $stats = Utils::statsCarrito();?>
+                        <li><a href="<?=baseUrl?>Carrito/index">Productos (<?=$stats['count']?>)</a></li>
+                        <li><a href="<?=baseUrl?>Carrito/index">Total $<?=$stats['total']?></a></li>
+                        <li><a href="<?=baseUrl?>Carrito/index">Ver carrito</a></li>
+                    </ul>
+                </div>
+
                 <div id="login" class="block_aside">
 
                 <?php if(isset($_SESSION['identified'])): ?>
