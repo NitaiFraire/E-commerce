@@ -59,6 +59,44 @@ class Utils{
 
         return $stats;
     }
+
+    public static function isIdentified(){
+
+        if(!isset($_SESSION['identified'])){
+
+            header('Location:' . baseUrl);
+        }else{
+
+            return true;
+        }
+    }
+
+    public static function showStatus($status){
+
+        $value = 'pendiente';
+
+        if($status == 'confirm'){
+
+            $value = 'pendiente';
+
+        }elseif($status == 'preparation'){
+
+            $value = 'En preparacion';
+
+        }elseif($status == 'ready'){
+
+            $value = 'Listo para enviar';
+
+        }elseif($status == 'sended'){
+
+            $value = 'Enviado';
+        }
+
+        return $value;
+    }
+
+
+    
 }
     
 ?>

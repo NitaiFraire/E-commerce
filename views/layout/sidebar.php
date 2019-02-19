@@ -43,10 +43,10 @@
                         <?php if(isset($_SESSION['admin'])):?>
                             <li><a href="<?=baseUrl?>Categoria/index">Gestionar categorias</a></li>
                             <li><a href="<?=baseUrl?>Producto/gestion">Gestionar producto</a></li>
-                            <li><a href="#">Gestionar pedidos</a></li>
+                            <li><a href="<?=baseUrl?>Pedido/gestion">Gestionar pedidos</a></li>
                         <?php endif;?>
                         <?php if(isset($_SESSION['identified'])):?>
-                            <li><a href="#">Mis pedidos</a></li>
+                            <li><a href="<?=baseUrl?>Pedido/misPedidos">Mis pedidos</a></li>
                             <li><a href="<?=baseUrl?>Usuario/logout">Cerrar sesión</a></li>
                         <?php endif; ?>
                     </ul>
