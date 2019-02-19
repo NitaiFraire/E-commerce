@@ -453,3 +453,19 @@ li a .enlace{
 
   width: 100%;
 }
+
+.updownUnidades .button{
+
+  display: block;
+  width: 20px;
+  float: left;
+  padding: 2px;
+  margin: 2px;
+}
+
+.updownUnidades{
+
+  width: 50%;
+  margin: 0px auto;
+
+}
